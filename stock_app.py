@@ -214,7 +214,8 @@ def get_response(prompt):
     completion = client.chat.completions.create(
         model="meta-llama/Llama-3.2-1B-Instruct", 
         messages=messages, 
-        max_tokens=2500
+        max_tokens=1000, 
+        temperature=0
     )
 
     return completion.choices[0].message.content
