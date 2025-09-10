@@ -203,7 +203,7 @@ def generate_analysis_text(technical_data, fundamental_data):
 from huggingface_hub import InferenceClient
 def get_response(prompt):
     
-    client = InferenceClient(api_key="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")
+    client = InferenceClient(api_key="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")
     messages = [
         {
             "role": "user",
