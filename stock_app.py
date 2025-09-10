@@ -203,7 +203,7 @@ def generate_analysis_text(technical_data, fundamental_data):
 from huggingface_hub import InferenceClient
 def get_response(prompt):
     
-    client = InferenceClient(api_key="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")
+    client = InferenceClient(api_key="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")
     messages = [
         {
             "role": "user",
@@ -450,4 +450,5 @@ if st.sidebar.button("Analyze"):
         3. Stop-loss levels are breached
         4. Investment thesis changes materially
         """)
+
 
